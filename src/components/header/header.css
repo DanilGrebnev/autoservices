@@ -1,0 +1,38 @@
+/* Переменные цвета взяты из основного файла со стилями */
+#header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-header);
+    color: white;
+    height: 80px;
+}
+
+#header ul {
+    display: flex;
+}
+
+#header ul li:not(:first-child) {
+    margin-left: 50px;
+}
+
+#header .header-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+}
+
+#cube {
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+    background: var(--bg-header);
+    width: 80px;
+    border-radius: 0 0 1em 1em;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}

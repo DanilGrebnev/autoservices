@@ -1,0 +1,54 @@
+#record {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    background-size: 80%;
+    background-position: 40%;
+    background: rgb(26, 26, 30);
+    justify-content: space-between;
+}
+
+#record__content {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 80px;
+    z-index: 2;
+}
+
+
+#record__content p {
+    text-align: start;
+}
+
+#record .white-button {
+    border: 2px solid var(--c-btn);
+    font-size: 20px;
+    color: white;
+    background: var(--c-btn);
+    border-radius: 10px;
+}
+
+#record__content .white-button:last-child {
+    box-sizing: border-box;
+    color: var(--c-btn);
+    background: none;
+    margin-left: 30px;
+}
+
+#record__content .white-button:last-child:hover {
+    background: var(--c-btn);
+    color: white;
+}
+
+#record img {
+    position: absolute;
+    opacity: .8;
+    right: 0px;
+    top: 0;
+    width: 500px;
+    z-index: 0;
+}

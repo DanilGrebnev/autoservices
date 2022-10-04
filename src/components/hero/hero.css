@@ -1,0 +1,22 @@
+#hero {
+    position: relative;
+    background: red;
+    height: 384px;
+    background-size: cover;
+}
+
+#hero p:not(:nth-child(3)) {
+    width: max-content;
+    background: #FF7E00;
+    padding: 0 5px 0 5px;
+    display: flex;
+}
+
+#hero-add {
+    top: 20%;
+    left: 55%;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    width: max-content;
+}

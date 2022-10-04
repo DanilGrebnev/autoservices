@@ -1,0 +1,19 @@
+.white-button {
+    background: white;
+    border: 1px solid silver;
+    border-radius: 2px;
+    color: var(--c-btn);
+    padding: 12px 24px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.white-button:hover {
+    transition: .5s;
+    background: var(--c-btn);
+    color: white;
+    border-color: var(--c-btn);
+}
