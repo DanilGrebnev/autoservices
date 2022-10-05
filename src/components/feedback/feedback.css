@@ -1,0 +1,19 @@
+#feedback {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    gap: 10px;
+}
+
+.grid__item {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}

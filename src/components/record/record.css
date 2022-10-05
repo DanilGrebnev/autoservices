@@ -19,6 +19,10 @@
     z-index: 2;
 }
 
+#record__content span {
+    /* border-bottom: 4px solid var(--c-btn) */
+    color: var(--c-btn);
+}
 
 #record__content p {
     text-align: start;

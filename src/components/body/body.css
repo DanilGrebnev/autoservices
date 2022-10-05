@@ -76,7 +76,8 @@
     margin-bottom: 30px;
 }
 
-#body .container {
-    display: flex;
-    justify-content: space-between;
+#body #card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
 }
