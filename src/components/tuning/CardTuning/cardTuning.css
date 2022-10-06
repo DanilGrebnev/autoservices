@@ -1,0 +1,27 @@
+.tuning__card {
+    max-width: 500px;
+    width: 100%;
+    background: #161820;
+    padding:15px;
+    border-radius:10px;
+    margin: 10px;
+}
+
+.tuning__card img {
+    width: 45px;
+}
+.tuning__card > div{
+    display: flex;
+    align-items: center;
+}
+.tuning__card h4 {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.tuning__card p {
+    margin-top: 10px;
+    color: #9d9daf;
+    font-size: 16px;
+}

@@ -9,12 +9,12 @@ const Hero = () => {
     return (
         <section style={style} id="hero">
             <div id="hero-add">
-                <p>Диагностика ходовой</p>
-                <p>Бесплатно!</p>
+                <p>Диагностика подвески </p>
+                <p>бесплатно!</p>
 
-                <WhiteButton text="оставить заявку" />
+                {/* <WhiteButton text="оставить заявку" /> */}
             </div>
-            <div id="form-title">Оставьте <span><a>заявку</a></span> для расчёта примерной стоимости ремонта, и мы свяжемся с вами в <span>ближайшее</span> время!</div>
+            <div id="form-title">Ремонт <span>всех</span> марок автомобилей <span><a>VAG</a></span> в Волгограде </div>
         </section>
     )
 }

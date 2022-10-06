@@ -1,12 +1,17 @@
 .card {
+    position: relative;
     border-radius: 10px;
     box-sizing: border-box;
-    /* width: 392px; */
-    height: 320px;
-    position: relative;
+    /* height: 320px; */
     border: 1px solid #E5E5E5;
     overflow: hidden;
+    position: relative;
+    background: white;
+    transition: .3s;
+    cursor: pointer;
 }
+
+
 
 .card__img {
     border-radius: 10px;
@@ -22,34 +27,23 @@
 }
 
 .card h3 {
-    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .card__content {
-    display: flex;
     position: absolute;
     justify-content: center;
-    /* max-width: 376px; */
-    width: 100%;
-    text-align: center;
-    height: max-content;
-    border-radius: 10px;
     bottom: 20px;
-    background: white;
     left: 50%;
     transform: translateX(-50%);
-    transition: .5s;
+    width: max-content;
 }
 
 .price {
     width: 12px;
     margin-left: 5px;
 }
-
-/* .card__content:hover {
-    box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.28);
-} */
-
 
 .card__content>div {
     max-width: 328px;
@@ -64,6 +58,30 @@
 }
 
 .card__content>div img {
+    position: relative;
     display: block;
     margin-right: 8px;
+}
+
+.block1,
+.block2 {
+    z-index: 2;
+    position: absolute;
+    background: rgba(0, 0, 0, .4);
+    transition: .5s;
+    width: 100%;
+    height: 0;
+}
+
+.block1 {
+    top: 0;
+}
+
+.block2 {
+    bottom: 0;
+}
+
+.card:hover .block1,
+.card:hover .block2 {
+    height: 50%;
 }
