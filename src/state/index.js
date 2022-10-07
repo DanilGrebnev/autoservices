@@ -53,7 +53,7 @@ const state = {
             title: 'Замена масла трансмиссии',
             price: "диагностика от 500",
             styles: {
-                backgroundSize: '60%',
+                // backgroundSize: 'contain',
             }
         },
         {

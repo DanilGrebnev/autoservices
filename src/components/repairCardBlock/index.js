@@ -7,7 +7,7 @@ const RepairCardBlock = () => {
     const { repairCard } = state
 
     return (
-        <div id='card-wrapper' className='container'>
+        <section id='card-wrapper'>
             {repairCard.map(el => {
                 return <Card
                     key={el.id}
@@ -17,7 +17,8 @@ const RepairCardBlock = () => {
                     styles={el.styles}
                 />
             })}
-        </div>
+
+        </section>
     )
 }
 export default RepairCardBlock

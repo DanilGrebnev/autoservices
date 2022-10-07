@@ -10,12 +10,8 @@ const Card = ({ img, title, price, styles = undefined }) => {
 
     return (
         <div className="card">
-            <div className='block1'></div>
             <div style={style} className='card__img'></div>
             <h3>{title}</h3>
-            <div className='block2'>
-                <button>Подробнее</button>
-            </div>
         </div>
     )
 }

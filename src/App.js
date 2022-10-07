@@ -1,19 +1,23 @@
 import './App.css';
-import Header from './components/header'
 import Footer from './components/footer'
-import Hero from './components/hero'
-import Body from './components/body';
+import Hero from './components/hero1'
+import RepairCardBlock from './components/repairCardBlock';
+import Audi from './components/audi';
+import Record from './components/record';
+import Tuning from './components/tuning';
 
 
 const App = () => {
 
   return (
-    <div className="App">
-      <Header />
+    <section id="App" >
       <Hero />
-      <Body />
+      <RepairCardBlock />
+      <Audi />
+      <Record />
+      <Tuning />
       <Footer />
-    </div>
+    </section>
   );
 }
 

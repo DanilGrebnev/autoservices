@@ -1,0 +1,15 @@
+#audi {
+    position: relative;
+    height: 618px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#audi>div {
+    position: relative;
+}

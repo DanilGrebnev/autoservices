@@ -3,6 +3,10 @@
 
 }
 
+#tuning.container{
+    padding: 0;
+}
+
 #tuning {
     width: 100%;
     background-size: cover;
@@ -14,6 +18,7 @@
 }
 
 .tuning__col1 {
+    box-sizing: border-box;
     width: 50%;
     height: auto;
     background: rgba(0, 0, 0, .6);
@@ -21,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 2%;
 }
 
 .tuning__col1 p:last-child {
@@ -28,6 +34,7 @@
 }
 
 #tuning h3 {
+    text-align: center;
     margin-top: 30px;
     font-weight: 400;
     font-size: 35px;
@@ -38,7 +45,7 @@
     font-size: 30px;
     color: white;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin: 20px 0 30px 0;
 }
 
 .tuning__col1 p {

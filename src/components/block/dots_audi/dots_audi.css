@@ -1,0 +1,31 @@
+.dots__audi {
+    position: absolute;
+    box-sizing: content-box;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 8px solid orange;
+    background: white;
+    cursor: pointer;
+}
+
+.dots__content {
+    border-radius: 5px;
+    position: absolute;
+    background: white;
+    width: 200px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.dots__content h4 {
+    margin-bottom: 10px;
+}
+
+.dots__audi {
+    top: 35%;
+    left: 23%;
+}
